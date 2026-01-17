@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import Button from "@/components/ui/Button";
 
 export default function Page() {
 
@@ -16,12 +17,12 @@ export default function Page() {
 
             <div className="bg-white w-[100%] max-w-6xl p-8 rounded-3xl shadow-xl">
 
-                <h1 className="text-4xl font-bold text-center mb-10">Crear Torneo</h1>
+                <h1 className="text-4xl font-bold text-center mb-10">Crear torneo</h1>
 
                 <label className="text-lg font-semibold">Nombre torneo</label>
                 <input
                     type="text"
-                    className="w-full bg-gray-300 p-4 rounded-xl mb-6 mt-2 shadow-xl"
+                    className="w-full bg-gray-200 p-4 rounded-xl mb-6 mt-2 shadow-xl"
                 />
 
                 <div className="grid grid-cols-2 gap-6">
@@ -29,14 +30,14 @@ export default function Page() {
                         <label className="text-lg font-semibold">Ubicación</label>
                         <input
                             type="text"
-                            className="w-full bg-gray-300 p-4 mt-2 rounded-xl shadow-xl"
+                            className="w-full bg-gray-200 p-4 mt-2 rounded-xl shadow-xl"
                         />
                     </div>
 
                     <div>
                         <label className="text-lg font-semibold">Descripción</label>
                         <textarea
-                            className="w-full h-28 bg-gray-300 p-4 mt-2 rounded-xl resize-none shadow-xl">
+                            className="w-full h-28 bg-gray-200 p-4 mt-2 rounded-xl resize-none shadow-xl">
                         </textarea>
                     </div>
                 </div>
@@ -66,9 +67,10 @@ export default function Page() {
                 </div>
 
                 <div className="flex justify-center mt-10" id="btn-create">
-                    <button className="bg-[var(--color-button-background)] text-white font-bold text-2xl px-16 py-4 hover:bg-blue-600 rounded-3xl shadow-xl">
-                        Crear Torneo
-                    </button>
+                    <Button
+                        text="Crear Torneo"
+                        className="w-full max-w-xs bg-[var(--color-button-background)] text-white font-bold py-4 rounded-2xl text-lg hover:bg-blue-600 shadow-xl"
+                    />
                 </div>
 
             </div>
