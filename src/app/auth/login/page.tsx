@@ -46,7 +46,7 @@ export default function LoginPage() {
           <div className="flex justify-center mt-1">
             <Button
               text="Iniciar sesion"
-              className="w-full">
+              className="w-full justify-center">
               <ArrowRightToLine size={23} />
             </Button>
           </div>
