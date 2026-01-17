@@ -2,7 +2,7 @@
 
 import Button from "@/components/ui/Button";
 import Image from "next/image";
-import { ArrowRightToLine,Mail,KeyRound} from "lucide-react";
+import { ArrowRightToLine, Mail, KeyRound } from "lucide-react";
 
 
 export default function LoginPage() {
@@ -46,9 +46,9 @@ export default function LoginPage() {
           <div className="flex justify-center mt-1">
             <Button
               text="Iniciar sesion"
-              className="w-full"
-              icon={ArrowRightToLine}
-            />
+              className="w-full">
+              <ArrowRightToLine size={23} />
+            </Button>
           </div>
         </div>
       </form>

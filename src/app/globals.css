@@ -14,9 +14,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #faeeeb;
+    --background: #9AA3AE;
     --foreground: #ededed;
-    --color-button-background: #e64d1fe1; 
+    --color-button-background: #2F3B52;
+    --color-dashboard-background: #EBEDF2;
   }
 }
 
