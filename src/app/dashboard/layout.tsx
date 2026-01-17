@@ -44,17 +44,6 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
                     <Button text="Configuración" className="w-full py-5 shadow-xl"> <Settings /> </Button>
                 </div>
 
-                {/* <div className="flex justify-center mt-8">
-                    <div className="w-32">
-                        <Image
-                            src="/images/copa-de-oro.png"
-                            alt="Trofeo"
-                            width={128}
-                            height={128}
-                            className="drop-shadow-lg"
-                        />
-                    </div>
-                </div> */}
             </div>
 
             <div className="flex-1 p-6 md:p-10 text-black">
